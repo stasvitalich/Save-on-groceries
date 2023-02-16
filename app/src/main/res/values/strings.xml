@@ -4,5 +4,7 @@
     <string name="SecondItem">Продукт 2</string>
     <string name="FirstItemWeight">Вес упаковки в граммах</string>
     <string name="FirstItemCost">Цена упаковки в тенге</string>
-    <string name="PricePer100">Цена за 100 гр. составляет</string>
+    <string name="HundredGrPrice1">цена продукта 1 за 1 кг.</string>
+    <string name="HundredGrPrice2">цена продукта 2 за 1 кг.</string>
+    <string name="PricePer100">Цена</string>
 </resources>

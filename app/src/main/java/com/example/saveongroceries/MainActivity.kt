@@ -30,14 +30,14 @@ class MainActivity : AppCompatActivity() {
                 // Convert the values to Double and calculate the result
                 val price1 = price1Text.toDouble()
                 val weight1 = weight1Text.toDouble()
-                val item1Price = price1 / weight1 * 100
+                val item1Price = price1 / weight1 * 1000
                 result1 = item1Price
 
                 // Round the result to two decimal places
                 val formattedResult1 = String.format("%.2f", item1Price)
 
                 // Update the TextView with the rounded result
-                binding.textViewTotal1.text = "Цена 1 продукта за 100 гр.: $formattedResult1 т."
+                binding.textViewTotal1.text = formattedResult1
             }
 
 
@@ -45,13 +45,13 @@ class MainActivity : AppCompatActivity() {
             if (price2Text.isNotEmpty() && weight2Text.isNotEmpty()){
                 val price2 = price2Text.toDouble()
                 val weight2 = weight2Text.toDouble()
-                val item2Price = price2 / weight2 * 100
+                val item2Price = price2 / weight2 * 1000
                 result2 = item2Price
 
                 val formattedResult2 = String.format("%.2f", item2Price)
 
                 // Update the TextView with the unrounded result
-                binding.textTotal2.text = "Цена 2 продукта за 100 гр.: $formattedResult2 т."
+                binding.textTotal2.text = formattedResult2
             }
         }
     }
