@@ -8,4 +8,6 @@
     <string name="HundredGrPrice2">цена продукта 2 за 1 кг.</string>
     <string name="PricePer100">Цена</string>
     <string name="Difference">Вычислить разницу</string>
+    <string name="Delete">Сброс</string>
+    <string name="TengeRate">₸ = 5.93</string>
 </resources>

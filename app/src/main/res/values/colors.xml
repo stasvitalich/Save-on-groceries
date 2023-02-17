@@ -10,4 +10,5 @@
     <color name="background">#C7F9CC</color>
     <color name="ForText">#22577A</color>
     <color name="ForItems">#80ED99</color>
+    <color name="Delete">#EF476F</color>
 </resources>

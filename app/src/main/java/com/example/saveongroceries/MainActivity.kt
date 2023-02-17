@@ -26,13 +26,13 @@ class MainActivity : AppCompatActivity() {
             val price2Text = binding.textEditPrice2.text.toString()
             val weight2Text = binding.textEditWeight2.text.toString()
 
-            if (price1Text.isEmpty() || weight1Text.isEmpty()){
+            if (price1Text.isEmpty() || weight1Text.isEmpty()) {
                 binding.textViewTotal1.text = null
                 binding.textViewTotal2.text = null
                 binding.textRecomendation.text = null
             }
 
-            if (price2Text.isEmpty() || weight2Text.isEmpty()){
+            if (price2Text.isEmpty() || weight2Text.isEmpty()) {
                 binding.textViewTotal3.text = null
                 binding.textViewTotal4.text = null
                 binding.textRecomendation.text = null
@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            if (price2Text.isNotEmpty() && weight2Text.isNotEmpty()){
+            if (price2Text.isNotEmpty() && weight2Text.isNotEmpty()) {
                 val price2 = price2Text.toDouble()
                 val weight2 = weight2Text.toDouble()
                 val item2Price = price2 / weight2 * 1000
@@ -78,25 +78,46 @@ class MainActivity : AppCompatActivity() {
             if (price1Text.isNotEmpty() && weight1Text.isNotEmpty() && price2Text.isNotEmpty() && weight2Text.isNotEmpty()) {
                 var difference = 0.0
 
-                if (result1 > result2){
+                if (result1 > result2) {
                     difference = ((result1 / result2) - 1) * 100
-                } else{
-                    difference = ((result2 / result1) -1) * 100
+                } else {
+                    difference = ((result2 / result1) - 1) * 100
                 }
 
 
                 val formattedDifference = String.format("%.2f", difference)
 
-                if (result1 > result2){
+                if (result1 > result2) {
                     binding.textRecomendation.text = "Продукт 1 дороже на $formattedDifference%"
-                }else if(result1 < result2){
+                } else if (result1 < result2) {
                     binding.textRecomendation.text = "Продукт 2 дороже на $formattedDifference%"
-                } else{
+                } else {
                     binding.textRecomendation.text = "Стоимость продуктов одинакова"
                 }
 
 
             }
+
+        }
+
+        val myTextInput = binding.textEditWeight1
+        myTextInput.requestFocus()
+
+        binding.buttonDelete.setOnClickListener {
+
+            binding.textViewTotal1.text = null
+            binding.textViewTotal2.text = null
+            binding.textRecomendation.text = null
+
+            binding.textViewTotal3.text = null
+            binding.textViewTotal4.text = null
+
+            binding.textEditWeight1.text = null
+            binding.textEditWeight2.text = null
+            binding.textEditPrice1.text = null
+            binding.textEditPrice2.text = null
+
+            myTextInput.requestFocus()
 
         }
     }
