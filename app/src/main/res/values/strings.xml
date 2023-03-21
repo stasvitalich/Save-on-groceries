@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">Save on groceries</string>
-    <string name="FirstItem">Продукт 1</string>
-    <string name="SecondItem">Продукт 2</string>
-    <string name="FirstItemWeight">Вес упаковки в граммах</string>
-    <string name="FirstItemCost">Цена упаковки в тенге</string>
-    <string name="HundredGrPrice1">цена продукта 1 за 1 кг.</string>
-    <string name="HundredGrPrice2">цена продукта 2 за 1 кг.</string>
-    <string name="PricePer100">Цена</string>
-    <string name="Difference">Вычислить разницу</string>
-    <string name="Delete">Сброс</string>
+    <string name="app_name">Экономия на продуктах</string>
+    <string name="FirstItem">Product 1</string>
+    <string name="SecondItem">Product 1</string>
+    <string name="FirstItemWeight">Package weight in grams</string>
+    <string name="FirstItemCost">Package price in tenge</string>
+    <string name="HundredGrPrice1">Product price 1 per 1 kg</string>
+    <string name="HundredGrPrice2">Product price 2 per 1 kg</string>
+    <string name="PricePer100">Price</string>
+    <string name="Difference">Calculate the difference</string>
+    <string name="Delete">Clear</string>
     <string name="TengeRate">₸ = 5.93</string>
+    <string name="Welcome">Welcome!</string>
 </resources>

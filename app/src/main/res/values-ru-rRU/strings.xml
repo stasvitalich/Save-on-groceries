@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Save on groceries</string>
+    <string name="FirstItem">Продукт 1</string>
+    <string name="SecondItem">Продукт 2</string>
+    <string name="FirstItemWeight">Вес упаковки в граммах</string>
+    <string name="FirstItemCost">Цена упаковки в тенге</string>
+    <string name="HundredGrPrice1">цена продукта 1 за 1 кг.</string>
+    <string name="HundredGrPrice2">цена продукта 2 за 1 кг.</string>
+    <string name="PricePer100">Цена</string>
+    <string name="Difference">Вычислить разницу</string>
+    <string name="Delete">Сброс</string>
+    <string name="TengeRate">₸ = 5.93</string>
+    <string name="Welcome">Добро пожаловать!</string>
+</resources>
