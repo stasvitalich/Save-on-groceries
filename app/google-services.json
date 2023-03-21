@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585979311809",
+    "project_id": "save-on-groceries",
+    "storage_bucket": "save-on-groceries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585979311809:android:fa55816b1d606cf29c8640",
+        "android_client_info": {
+          "package_name": "com.example.saveongroceries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585979311809-6pam5mcvlniupb5v54jt0ri0mhvq2h7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqGPgijueXUwOLtrDMEKMxlo3w7bMlOZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585979311809-6pam5mcvlniupb5v54jt0ri0mhvq2h7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
