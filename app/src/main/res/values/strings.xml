@@ -11,4 +11,9 @@
     <string name="Delete">Clear</string>
     <string name="TengeRate">₸ = 5.93</string>
     <string name="Welcome">Welcome!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Register">Register</string>
+    <string name="Login">Log In</string>
+    <string name="Saveongroceries">Save on groceries!</string>
 </resources>

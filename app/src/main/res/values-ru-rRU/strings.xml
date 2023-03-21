@@ -12,4 +12,8 @@
     <string name="Delete">Сброс</string>
     <string name="TengeRate">₸ = 5.93</string>
     <string name="Welcome">Добро пожаловать!</string>
+    <string name="hello_blank_fragment">Привет фрагмент</string>
+    <string name="Register">Регистрация</string>
+    <string name="Login">Войти</string>
+    <string name="Saveongroceries">Сэкономь на продуктах!</string>
 </resources>
