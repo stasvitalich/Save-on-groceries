@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import androidx.fragment.app.Fragment
 import com.example.saveongroceries.databinding.ActivityLauncherBinding
 import render.animations.*
 
@@ -18,8 +19,15 @@ class LauncherActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Handler().postDelayed({
-            startActivity(Intent(this, WelcomeActivity::class.java))
-            finish()
+            openFrag(BlankFragment1.newInstance(), R.id.place_holder)
         }, SPLASH_TIME_OUT)
+    }
+
+    private fun openFrag (f: Fragment, idHolder: Int){
+        supportFragmentManager
+            .beginTransaction()
+            .replace(idHolder, f)
+            .addToBackStack(null)
+            .commit()
     }
 }

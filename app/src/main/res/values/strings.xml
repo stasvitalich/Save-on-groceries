@@ -16,4 +16,7 @@
     <string name="Register">Register</string>
     <string name="Login">Log In</string>
     <string name="Saveongroceries">Save on groceries!</string>
+    <string name="Singin">Sing in to continue</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
 </resources>

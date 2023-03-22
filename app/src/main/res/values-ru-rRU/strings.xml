@@ -16,4 +16,7 @@
     <string name="Register">Регистрация</string>
     <string name="Login">Войти</string>
     <string name="Saveongroceries">Сэкономь на продуктах!</string>
+    <string name="Singin">Войдите, чтобы продолжить</string>
+    <string name="Username">Имя ползователя</string>
+    <string name="Password">Пароль</string>
 </resources>

@@ -43,7 +43,6 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#F67B30"
-        android:elevation="5dp"
         android:fontFamily="@font/bebas"
         android:text="@string/Register"
         android:textColor="@color/white"
@@ -54,11 +53,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/registerButton2"
+        android:id="@+id/loginButton"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:backgroundTint="#5ACFDD"
-        android:elevation="5dp"
         android:fontFamily="@font/bebas"
         android:text="@string/Login"
         android:textColor="@color/white"

@@ -15,6 +15,8 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityWelcomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        singInActivity()
+
 
         /* super.onCreate(savedInstanceState)
          binding = ActivityMainBinding.inflate(layoutInflater)
@@ -26,10 +28,15 @@ class WelcomeActivity : AppCompatActivity() {
          }*/
     }
 
-    private fun openFrag(f: Fragment, idHolder: Int) {
-        supportFragmentManager
-            .beginTransaction()
-            .replace(idHolder, f)
-            .commit()
+    private fun singInActivity(){
+        binding.loginButton.setOnClickListener {
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.place_holder, BlankFragment1.newInstance())
+                .addToBackStack(null)
+                .commit()
+        }
     }
+
+
 }
